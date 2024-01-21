@@ -9,23 +9,29 @@
     <!-- google font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
 
     <!-- Style -->
-    .font-bebas-neue{
-        font-family: 'Bebas Neue', sans-serif;
-    }
+    <style>
+        .font-bebas-neue {
+            font-family: 'Bebas Neue', sans-serif;
+        }
+        .font-roboto{
+            font-family: 'Roboto', sans-serif;
+        }
+    </style>
 </head>
 
 <body>
-    <header class="bg-[#FFFBF0]">
+    <header class="bg-[#FFFBF0] py-20 px-4 md:px-32">
         <!-- nav section -->
         <nav>
 
         </nav>
         <!-- Banner Section -->
-        <div class="flex justify-between items-center px-32 ">
-            <div>
+        <div class="flex flex-col md:flex-row justify-between items-center px-32 ">
+            <div class="space-y-2">
                 <h1 class="text-7xl uppercase">
                     <span class="text-[#FABE4C]">
                         Be the Penguins
@@ -40,7 +46,7 @@
                     and typesetting industry.
                 </p>
                 <button
-                    class="py-4 px-9  bg-gradient-to-r from-[#A4BC46] to-[#85A019] text-white uppercase font-bebas-neue rounded-lg font-bold">
+                    class="py-4 px-9  bg-gradient-to-r from-[#A4BC46] to-[#85A019] text-white uppercase font-bebas-neue rounded-lg font-medium">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5}
                         stroke="currentColor" class="w-6 h-6 inline">
                         <path strokeLinecap="round" strokeLinejoin="round"
@@ -54,8 +60,12 @@
             </div>
         </div>
     </header>
-    <main>
-
+    <main class="max-w-xl mx-auto">
+        <section class="py-12">
+            <div>
+                <h3 class="text-5xl font-bebas-neue">Woman Jackets</h3>
+            </div>
+        </section>
     </main>
     <footer>
 
